@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    size: 5px;
+    margin: 5px;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #4caf50;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+#table.clientes {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+button{
+    
+    width: 10%;
+}
